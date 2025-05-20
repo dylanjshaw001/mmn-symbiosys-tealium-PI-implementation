@@ -43,19 +43,25 @@ var jsSHA256 = (function () {
 ```
 // Map object with PI Data
 u.map = {
-    "cp.utag_main__st": "ts",
-    "cp.utag_main_v_id": "vid",
-    "cp.utag_main_ses_id": "sid",
-    "cp.macys_online_guid": "crmid",
-    "dom.url": "page_url",
-    "prodid": "prodid",
-    "symCategoryId": "category_id",
-    "sym_hashed_phone_user": "hashed_phone_user",
-    "sym_hashed_phone_e164_user": "hashed_phone_e164_user",
-    "sym_hashed_date_of_birth_user": "hashed_date_of_birth_user",
-    "sym_hashed_zip_code_user": "hashed_zip_code_user",
-    "sym_hashed_city_user": "hashed_city_user",
-    "sym_hashed_state_user": "hashed_state_user",
+  "cp.utag_main__st": "ts",
+  "cp.utag_main_v_id": "vid",
+  "cp.utag_main_ses_id": "sid",
+  "cp.macys_online_guid": "crmid",
+  "dom.url": "page_url",
+  "prodid": "prodid",
+  "symCategoryId": "category_id",
+  "sym_hashed_phone_user": "hashed_phone_user",
+  "sym_hashed_phone": "hashed_phone",
+  "sym_hashed_phone_e164_user": "hashed_phone_e164_user",
+  "sym_hashed_phone_e164": "hashed_phone_e164",
+  "sym_hashed_date_of_birth_user": "hashed_date_of_birth_user",
+  "sym_hashed_date_of_birth": "hashed_date_of_birth",
+  "sym_hashed_zip_code_user": "hashed_zip_code_user",
+  "sym_hashed_zip_code": "hashed_zip_code",
+  "sym_hashed_city_user": "hashed_city_user",
+  "sym_hashed_city": "hashed_city",
+  "sym_hashed_state_user": "hashed_state_user",
+  "sym_hashed_state": "hashed_state",
 };
 
 // SYMBIOSYS PI DATA PROCESSING LOGIC START
