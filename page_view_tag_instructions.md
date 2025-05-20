@@ -1,4 +1,4 @@
-1. Open Tealium Custom Container tag template.
+1. Open code editor for Symbiosys Page View tag template (Tealium Custom Container).
 2. scroll to the `u.map = {...}` object definition. This object maps your data layer variables to tag parameters. Copy the existing object and replace with the below `u.map` object and DI Data processing logic
 
 ```
