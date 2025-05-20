@@ -52,6 +52,8 @@ u.map = {
     "symCategoryId": "category_id",
     "sym_hashed_phone_user": "hashed_phone_user",
     "sym_hashed_phone_e164_user": "hashed_phone_e164_user",
+    "sym_hashed_first_name_user": "hashed_first_name_user",
+    "sym_hashed_last_name_user": "hashed_last_name_user",
     "sym_hashed_date_of_birth_user": "hashed_date_of_birth_user",
     "sym_hashed_zip_code_user": "hashed_zip_code_user",
     "sym_hashed_city_user": "hashed_city_user",
