@@ -99,9 +99,6 @@
 
 ```
                 // SYMBIOSYS PI DATA PROCESSING START
-                    // Enter data layer variable names in brackets
-                    // these are case-sensitive, use the case used in variable names
-                    // if variable not found in data layer, pass empty string
                     u.piAttributes = {
                         sym_hashed_phone_user: b['PHONE_USER'] || '',
                         sym_hashed_date_of_birth_user: b['DATE_OF_BIRTH_USER'] || '',
