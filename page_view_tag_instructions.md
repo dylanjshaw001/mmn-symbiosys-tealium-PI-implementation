@@ -38,7 +38,7 @@ var jsSHA256 = (function () {
 })();
 ```
 
-2. scroll to the `u.map = {...}` object definition. This object maps your data layer variables to tag parameters. Copy the existing object and replace with the below `u.map` object and DI Data processing logic  
+2. Scroll to the `u.map = {...}` object definition. This object maps your data layer variables to tag parameters. Copy the existing object and replace with the below `u.map` object and DI Data processing logic  
 
 ```
 // Map object with PI Data
@@ -186,7 +186,7 @@ u.send = function (a, b) {
             };
 
             u.processPiData(b);
-            // SYMBIOSYS PI DATA PROCESSING END
+        // SYMBIOSYS PI DATA PROCESSING END
 
             ...
             ...
