@@ -149,21 +149,20 @@ u.processPiData = function (b) {
 ```
 // SYMBIOSYS PI DATA PROCESSING START
     u.piAttributes = {
-        sym_hashed_phone_user: b['PHONE_USER'] || '',
-        sym_hashed_date_of_birth_user: b['DATE_OF_BIRTH_USER'] || '',
-        sym_hashed_first_name_user: b['FIRST_NAME_USER'] || '',
-        sym_hashed_last_name_user: b['LAST_NAME_USER'] || '',
-        sym_hashed_zip_code_user: b['ZIP_CODE_USER'] || '',
-        sym_hashed_city_user: b['CITY_USER'] || '',
-        sym_hashed_state_user: b['STATE_USER'] || '',
-        sym_hashed_phone: b['PLACEHOLDER'],
-        sym_hashed_phone_e164: b['PLACEHOLDER'],
-        sym_hashed_first_name: b['PLACEHOLDER'],
-        sym_hashed_last_name: b['PLACEHOLDER'],
-        sym_hashed_date_of_birth: b['PLACEHOLDER'],
-        sym_hashed_zip_code: b['PLACEHOLDER'],
-        sym_hashed_city: b['PLACEHOLDER'],
-        sym_hashed_state: b['PLACEHOLDER']
+      sym_hashed_phone_user: b['PHONE_USER'] || '',
+      sym_hashed_phone: b['PHONE'] || '',
+      sym_hashed_date_of_birth_user: b['DATE_OF_BIRTH_USER'] || '',
+      sym_hashed_date_of_birth: b['DATE_OF_BIRTH'] || '',
+      sym_hashed_first_name_user: b['FIRST_NAME_USER'] || '',
+      sym_hashed_first_name: b['FIRST_NAME'] || '',
+      sym_hashed_last_name_user: b['LAST_NAME_USER'] || '',
+      sym_hashed_last_name: b['LAST_NAME'] || '',
+      sym_hashed_zip_code_user: b['ZIP_CODE_USER'] || '',
+      sym_hashed_zip_code: b['ZIP_CODE'] || '',
+      sym_hashed_city_user: b['CITY_USER'] || '',
+      sym_hashed_city: b['CITY'] || '',
+      sym_hashed_state_user: b['STATE_USER'] || '',
+      sym_hashed_state: b['STATE'] || '',
     };
     u.processPiData(b);
 // SYMBIOSYS PI DATA PROCESSING END
