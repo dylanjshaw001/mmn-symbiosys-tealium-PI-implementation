@@ -156,8 +156,15 @@ u.processPiData = function (b) {
         sym_hashed_zip_code_user: b['ZIP_CODE_USER'] || '',
         sym_hashed_city_user: b['CITY_USER'] || '',
         sym_hashed_state_user: b['STATE_USER'] || '',
+        sym_hashed_phone: b['PLACEHOLDER'],
+        sym_hashed_phone_e164: b['PLACEHOLDER'],
+        sym_hashed_first_name: b['PLACEHOLDER'],
+        sym_hashed_last_name: b['PLACEHOLDER'],
+        sym_hashed_date_of_birth: b['PLACEHOLDER'],
+        sym_hashed_zip_code: b['PLACEHOLDER'],
+        sym_hashed_city: b['PLACEHOLDER'],
+        sym_hashed_state: b['PLACEHOLDER']
     };
-
     u.processPiData(b);
 // SYMBIOSYS PI DATA PROCESSING END
 ```
