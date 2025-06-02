@@ -180,6 +180,10 @@ try {
                     "attribute": {}
                 };
 
+                if(!u.extend){
+                    u.extend = [];
+                } 
+
                 /* Start Tag-Scoped Extensions Code */
                 /* Please Do Not Edit This Section */
                 ##UTEXTEND##
