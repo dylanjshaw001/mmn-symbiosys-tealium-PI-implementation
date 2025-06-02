@@ -169,7 +169,6 @@ try {
                     "kvp_delim": "" || "=",
                     "qs_delim": "" || "?",
                     "tag_type": "img",
-                    "tag_type": "img",
                     // "base_url": "https://event.symbiosys.ai/page_viewjs", // PROD ENDPOINT
                     "base_url": "https://event.symbiosys.dev/page_viewjs", // DEV ENDPOINT
                     "secure_base_url": "",
