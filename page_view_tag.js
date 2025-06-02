@@ -225,7 +225,7 @@ try {
                     if (!u.data.hasOwnProperty(key)) continue;
                     var val = u.data[key];
                     // skip our config props
-                    if (['base_url', 'qs_delim', 'qsp_delim', 'kvp_delim', 'tag_type', 'static_params'].indexOf(key) > -1) continue;
+                    if (['base_url', 'qs_delim', 'qsp_delim', 'kvp_delim', 'tag_type', 'static_params', 'cachebust', 'cachevar', 'requestscriptonce', 'secure_base_url'].indexOf(key) > -1) continue;
                     if (val != null && val !== '') {
                         qs.push(key + u.data.kvp_delim + encodeURIComponent(val));
                     }
