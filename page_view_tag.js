@@ -176,8 +176,7 @@ try {
                     "static_params": "api_key=AIzaSyDWKcAd0HdAqT0_Mv810AsRDVOlBYVeV-E", // DEV API KEY
                     "cachebust": "disabled",
                     "cachevar": "" || "_rnd",
-                    "requestscriptonce": "disabled",
-                    "attribute": {}
+                    "requestscriptonce": "disabled"
                 };
 
                 if(!u.extend){
