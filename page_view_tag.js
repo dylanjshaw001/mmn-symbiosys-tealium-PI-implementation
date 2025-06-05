@@ -192,9 +192,9 @@ try {
                 u.piAttributes = {
                     sym_hashed_phone_user: b['PLACEHOLDER'] || '',
                     sym_hashed_date_of_birth_user: b['PLACEHOLDER'] || '',
-                    sym_hashed_first_name_user: b['PLACEHOLDER'] || '',
-                    sym_hashed_last_name_user: b['PLACEHOLDER'] || '',
-                    sym_hashed_zip_code_user: b['PLACEHOLDER'] || '',
+                    sym_hashed_first_name_user: b['FirstName_Hashed'] || '',
+                    sym_hashed_last_name_user: b['LastName_Hashed'] || '',
+                    sym_hashed_zip_code_user: b['postalCode'] || '',
                     sym_hashed_city_user: b['PLACEHOLDER'] || '',
                     sym_hashed_state_user: b['PLACEHOLDER'] || ''
                 };
