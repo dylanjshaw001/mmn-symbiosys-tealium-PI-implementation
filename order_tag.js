@@ -83,6 +83,7 @@ try {
             "symProductPrice": "regunitpr", // where is this getting set?
             "symDiscountPrice": "disunitpr", // where is this getting set?
             "customer_email_sha256": "hashed_email", // where is customer_email_sha256 getting set?
+            "order_id": "oid",
 
             "sym_hashed_phone_user": "hashed_phone_user",
             "sym_hashed_phone": "hashed_phone",
