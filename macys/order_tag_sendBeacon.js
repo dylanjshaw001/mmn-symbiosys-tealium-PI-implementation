@@ -72,18 +72,18 @@ try {
 
         // Map object with PI Data
         u.map = {
-            "cp.utag_main__st": "ts",
-            "cp.utag_main_v_id": "vid",
-            "cp.utag_main_ses_id": "sid",
-            "cp.macys_online_guid": "crmid",
+            "cp.utag_main__st": "order_ts",
+            "cp.utag_main_v_id": "visitor_id",
+            "cp.utag_main_ses_id": "session_id",
+            "cp.macys_online_guid": "crm_id",
             "dom.url": "page_url",
 
-            "symProdIDs": "prodid", // where is this getting set?
-            "symQuantity": "qty", // where is this getting set?
-            "symProductPrice": "regunitpr", // where is this getting set?
-            "symDiscountPrice": "disunitpr", // where is this getting set?
+            "symProdIDs": "product_id", // where is this getting set?
+            "symQuantity": "quantity", // where is this getting set?
+            "symProductPrice": "regular_unit_price", // where is this getting set?
+            "symDiscountPrice": "discount_unit_price", // where is this getting set?
             "customer_email_sha256": "hashed_email", // where is customer_email_sha256 getting set?
-            "order_id": "oid",
+            "order_id": "order_id",
 
             "sym_hashed_phone_user": "hashed_phone_user",
             "sym_hashed_phone": "hashed_phone",
